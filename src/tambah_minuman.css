@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url(asset/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poly';
+    src: url(asset/poly.regular.ttf);
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url(asset/Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: 'InterReg';
+    src: url(asset/Inter-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin-inline-start: 10rem;
+    margin-inline-end: 10rem;
+    background-color: #323232;
+    
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.containerimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.inputgambar {
+    height: 3rem;
+    width: 100%;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: solid;
+    border-color: #FF9C3D;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    color: #CDCDCD;
+}
+
+.inputgambarchoose {
+    margin-right: -2rem;
+    border: none;
+}
+
+.inputother {
+    background-color: transparent;
+    border: solid;
+    border-color: #FF9C3D;
+    width: 100%;
+    height: 3rem;   
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    padding-right: -2rem;
+    font-size: medium;
+    color: white;
+}
+
+input::placeholder {
+    color: #CDCDCD;
+    font-size: medium;
+}
+
+input:focus {
+    border-color: #FF9C3D;
+    outline: none;
+}
+
+input::-webkit-file-upload-button {
+    border: none;
+    background-color: transparent;
+    color: #CDCDCD;
+}
+
+button {
+    background-color: #FF9C3D;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    color: white;
+}
+
+.file-input {
+    display: none;
+}
+
+.inputgambar {
+    display: flex;
+    align-items: center;
+}
+
+.custom-file-label {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 10px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.file-name {
+    margin-left: 10px;
+    display: none;
+}

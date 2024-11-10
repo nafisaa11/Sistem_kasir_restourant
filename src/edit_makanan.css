@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url(asset/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poly';
+    src: url(asset/poly.regular.ttf);
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url(asset/Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: 'InterReg';
+    src: url(asset/Inter-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin-inline-start: 10rem;
+    margin-inline-end: 10rem;
+    background-color: #323232;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.container1 {
+    height: 15rem;
+    width: 100%;
+    background-color: #FFBA78;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+}
+
+.imagecon {
+    margin-right: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.gambarmakanan {
+    height: 80%;
+}
+
+.gambarmakananinput {
+    height: 80%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+.inputgambar {
+    height: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: solid;
+    border-color: #FF9C3D;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    color: #CDCDCD;
+}
+
+.inputgambarchoose {
+    margin-right: -2rem;
+    border: none;
+}
+
+.inputother {
+    background-color: transparent;
+    border: solid;
+    border-color: #FF9C3D;
+    width: 100%;
+    height: 3rem;   
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    padding-right: -2rem;
+    font-size: medium;
+}
+
+input::placeholder {
+    color: #CDCDCD;
+    font-size: medium;
+}
+
+input:focus {
+    border-color: #FF9C3D;
+    outline: none;
+}
+
+input::-webkit-file-upload-button {
+    border: none;
+    background-color: transparent;
+    color: #CDCDCD;
+}
+
+button {
+    background-color: #FF9C3D;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+}
+
+.textbutton {
+    color: white;
+}
+
+input {
+    color: #CDCDCD;
+}
+
+.file-input {
+    display: none;
+}
+
+.custom-file-label {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-name {
+    margin-left: 10px;
+    display: none;
+}

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url(asset/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poly';
+    src: url(asset/poly.regular.ttf);
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url(asset/Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: 'InterReg';
+    src: url(asset/Inter-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin-inline-start: 10rem;
+    margin-inline-end: 10rem;
+    background-color: #323232;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 {
+    height: 15rem;
+    background-color: #FFBA78;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+}
+
+.detailcon h2, .detailcon p {
+    margin-bottom: 5px;
+}
+.detailcon h2:last-child {
+    margin-bottom: 0;
+}
+
+
+.imagecon {
+    margin-right: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.buttonkembali {
+    height: 3rem;
+    background-color: #FF9C3D;
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #323232;
+}
+
+.gambarmakanan {
+    height: 80%;
+}

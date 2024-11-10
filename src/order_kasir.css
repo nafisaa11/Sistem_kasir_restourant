@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url(asset/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poly';
+    src: url(asset/poly.regular.ttf);
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url(asset/Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: 'InterReg';
+    src: url(asset/Inter-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    margin-inline-start: 10rem;
+    margin-inline-end: 10rem;
+    overflow: auto;
+    background-color: #323232;
+}
+
+.container1 {
+    height: 10rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 {
+    font-family: PoetsenOne;
+    font-size: 24px;
+    background-color: #FFD3A8;
+    height: 4rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    border: none;
+    font-family: PoetsenOne;
+    font-size: 26px;
+    background-color: #FF9C3D;
+    height: 3.5rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.leftcon {
+    background-color: #FFD3A8;
+    border-radius: 2rem;
+    height: 100%;
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.rightcon {
+    background-color: #FFD3A8;
+    height: 100%;
+    width: 20%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: InterReg;
+}
+
+.title {
+    color: #FF9C3D;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: PoetsenOne;
+}
+
+.left {
+    margin-inline-start: 2rem;
+}
+
+.right {
+    margin-inline-end: 2rem;
+}
+
+.titleproduct {
+    font-family: PoetsenOne;
+    font-weight: 200;
+}
+
+.price {
+    font-family: InterReg;
+}
+
+img {
+    width: 8rem;
+    height: 8rem;
+}
+
+rect {
+    width: 100%;
+    height: 100%;
+}
+
+svg {
+    width: 8rem;
+    height: 8rem;
+}

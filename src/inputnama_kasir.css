@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url(asset/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poly';
+    src: url(asset/poly.regular.ttf);
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url(asset/Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: 'InterReg';
+    src: url(asset/Inter-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: url('asset/bglogin.svg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin-left: 20rem;
+    margin-top: -1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    margin-bottom: -20px;
+}
+
+#welcome {
+    font-family: PoetsenOne;
+    font-size: 36px;
+    color: white;
+}
+
+form {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    font-family: InterReg;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 10px 0px 10px 0px;
+    padding: 12px 12px 12px 25px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: solid 3px;
+    border-color: #FF9C3D;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+}
+
+input::placeholder {
+    color: #FF9C3D;
+}
+
+input:focus {
+    border-color: #FF9C3D;
+    outline: none;
+}
+
+.submit {
+    font-family: PoetsenOne;
+    font-size: 24px;
+    color: black;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 12px 12px 25px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 50px;
+    background-color: #FF9C3D;
+}

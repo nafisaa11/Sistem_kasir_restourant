@@ -1,0 +1,126 @@
+body{
+    background-color: #282828;
+}
+.content{
+    justify-content: center;
+    text-align: center;
+}
+.logo img {
+    margin-bottom: -40px;
+}
+.header h2{
+    color: #FF9C3D;
+}
+.alamat p{
+    color: white;
+}
+.dashed-line {
+    width: 1200px;
+    border-top: 2px dashed white; 
+   margin: auto;
+}
+.table {
+    display: table;
+    color: white; 
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    padding: 5px;
+}
+.label {
+    font-weight: bold;
+    width: 100px;
+}
+.separator {
+    text-align: center;
+    width: 10px;
+}
+
+.menu{
+    display: table;
+    color: white; 
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+
+.order {
+    display: table-row;
+}
+
+.pesanan, .jumlah, .harga {
+    display: table-cell;
+    
+}
+
+.pesanan {
+    width: 600px;
+}
+
+.jumlah {
+    width: 200px;
+}
+
+.harga{
+    width: 200px;
+}
+.satuan{
+    width: 200px;
+}
+
+.total {
+    display: table;
+    color: white;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 170px; /* Jarak dari tepi kanan */
+}
+
+.all {
+    display: table-row;
+}
+
+.col {
+    display: table-cell;
+    padding: 5px;
+}
+
+.price {
+    font-weight: bold;
+    width: 100px;
+    padding-right: 100px;
+}
+button{
+    background-color: #FF9C3D;
+    border: none;
+    width: 1000px;
+    margin: auto;
+    bottom: 0;
+}
+.submit-button {
+    background-color: #FF9C3D;
+    border: none;
+    width: 1200px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px; /* Jarak dari bawah */
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 570;
+}
+
